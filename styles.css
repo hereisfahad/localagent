@@ -120,8 +120,175 @@ button{
     position: relative; 
     width: 280px; 
     height: 365px;
+    /* display: flex;
+    flex-direction: column; */
 }
 
 .slideshow > div { 
     position: absolute;    
 }
+.col > h1{
+    font-size: 50px;
+}
+.col > p{
+    color:black; 
+    font-size: 35px; 
+    margin-bottom: 20px;
+}
+@media only screen and (max-width: 1200px ) {
+    .container {
+      justify-content: space-around;
+      align-items: center;
+      align-content: center;
+      height:609px;
+      width: 100%;
+    }
+    #name{
+        font-size: 20px;
+    }
+    .header{
+        justify-content: center;
+        align-items:flex-start;
+        align-content: space-around;
+        width: 300px;
+        margin-bottom: 40px;
+    }
+    .card{
+        width: 300px;
+        height: 300px;
+        margin-right: 20px
+    }
+    .card img{
+        width: 70px;
+        height: 70px;
+        margin-right: 20px;
+    }
+    .sect{
+        /* display: none; */
+        width: 220px;
+        height: 40px;
+        margin-right: auto;
+        margin-left: auto;
+        font-size: 13px;
+    }
+    .col{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 450px;
+    }
+    input{
+        width:250px;
+    }
+    .col > p{
+        font-size: 20px; 
+        margin-bottom: 20px;
+    }
+    .col > h1 {
+        font-size: 37px;
+    }
+  }
+
+
+
+@media only screen and (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      /* align-content: flex-start; */
+      height:609px;
+    }
+    #name{
+        font-size: 20px;
+    }
+    .header{
+        justify-content: center;
+        align-items:flex-start;
+        align-content: space-around;
+        width: 300px;
+        margin-bottom: 40px;
+    }
+    .card{
+        width: 300px;
+        height: 300px;
+        margin-left: -20px
+    }
+    .card img{
+        /* display: none; */
+        width: 70px;
+        height: 70px;
+        margin-right: 20px;
+    }
+    .sect{
+        /* display: none; */
+        width: 220px;
+        height: 40px;
+        margin-right: auto;
+        margin-left: auto;
+        font-size: 13px;
+    }
+    .col{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+
+    }
+    .details{
+        font-size: 10px;
+        /* margin-left: 0px; */
+    }
+    input{
+        width: 180px;
+    }
+    .col > p{
+        color:black; 
+        font-size: 15px; 
+        margin-bottom: 20px;
+    }
+    .col > h1{
+        font-size: 20px;
+    }
+  }
+
+
+
+  @media only screen and (max-width: 300px) {
+    input{
+        width: 104px;
+    }
+  }
+  @media only screen and (max-width: 320px) {
+    input{
+        width: 143px;
+    }
+    .card{
+        width: 275px;
+        height: 300px;
+        margin-left: -3px;
+        margin-top: 10px;
+    }
+    .container {
+        /* align-content: flex-start; */
+        height:550px;
+      }
+
+  }
+  @media only screen and (max-width: 319px) {
+    input{
+        width: 175px;
+    }
+    .card{
+        width: 275px;
+        height: 300px;
+        margin-left: -3px;
+        margin-top: 10px;
+    }
+    .container {
+        /* align-content: flex-start; */
+        height:550px;
+      }
+  }
+
+ 
